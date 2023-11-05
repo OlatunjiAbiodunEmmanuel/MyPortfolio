@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Olatunji Abiodun Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black p-3 Naav">
+        <div class="container-fluid d-flex justify-content-around">
+          <div class="navbar-brand font"><i class="fa-solid fa-code"></i> OLATUNJI ABIODUN</div>
+          <div class="d-none  text-light d-md-flex justify-content-around">
+            <a href="#about" class="pe-3 font btn text-light" >ABOUT</a> 
+            <a href="#projects" class="pe-3 font btn text-light">PROJECTS</a>
+            <a href="#services" class="pe-3 font btn text-light">SERVICES</a>
+            <a href="#footer" class="pe-3 font btn text-light">CONTACT</a>
+          </div>
+          <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" data-bs-scroll="true" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">OLATUNJI ABIODUN EMMANUEL</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about" id="ab">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#projects" id="ab1">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" onclick="ab2()" id="ab2">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer" onclick="ab3()" id="ab3">CONTACT</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<section class="container-sm mt-5 d-md-flex justify-content-around mb-5" id="about">
+            <div class="text-center img1 mb-4 mb-md-0">
+                <img src="/gallery/img.jpg" class="img-thumbnail dp" alt="...">
+              </div>
+        
+        <div class=" font">
+            <h1 class="border font fw-bolder p-3 border-5 border-top-0 border-end-0 border-bottom-0 border-black ms-md-5">Hi, I am <br> OLATUNJI ABIODUN</h1>
+            <h5 class="mt-4 text-center ms-md-5">Welcome to my portfolio! I'm a passionate front-end developer dedicated to creating 
+                responsive, accessible, and awesome web experiences. My approach is all about simplicity and meaningful design. Explore my portfolio and see 
+                for yourself how I can bring your ideas to life.
+            </h5>
+        </div>
+</section>
+
+<section class="container-sm mb-5">
+<h3 class="border border-3 border-top-0 border-end-0 mb-5 ps-3">Skills and technologies</h3>
+<div class="row">
+  <div class="col-sm-6 mb-sm-0">
+    <div class="card bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">HTML <i class="fa-brands fa-html5"></i></h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">CSS <i class="fa-brands fa-css3-alt"></i> </h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-sm-0">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">JAVASCRIPT <i class="fa-brands fa-js"></i></h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">REACT <i class="fa-brands fa-react"></i></h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-sm-0">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">GIT/GITHUB <i class="fa-brands fa-github"></i></h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">NODE JS <i class="fa-brands fa-node-js"></i></h5>
+        <p class="card-text">Proficiency: Intermediate</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-sm-0">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">BOOTSTRAP <i class="fa-brands fa-bootstrap"></i></h5>
+        <p class="card-text">Proficiency: Advanced</p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card  bg-black text-light mb-2">
+      <div class="card-body">
+        <h5 class="card-title">Figma <i class="fa-brands fa-figma"></i></h5>
+        <p class="card-text">Proficiency: Beginner</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="container-sm" id="projects">
+
+
+    <div class="container pt-5 team">
+        <div class="row">
+        <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+        <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+        <img class="card-img-top" src="/gallery/ecommerce.JPG" alt="" style="height: 70%;">
+        <div class="card-social d-flex align-items-center justify-content-center">
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                 href="https://that9jaboy3ecommerce.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                href="https://github.com/OlatunjiAbiodunEmmanuel/ECOMMERCE" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="card-body bg-secondary">
+                <h4 class="card-title">Ecommerce Website</h4>
+                <h6 class="card-title">Technology Used</h6>
+                <p class="card-text">
+                  <span class="bg-secondary rounded-2 p-1">react</span>
+                  <span class="bg-secondary rounded-2 p-1">css</span>
+                  <span class="bg-secondary rounded-2 p-1">javascript</span>
+                  <span class="bg-secondary rounded-2 p-1">git/github</span>
+                  <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+              </p>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+          <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+          <img class="card-img-top" src="/gallery/facebook.JPG" alt="" style="height: 70%;">
+          <div class="card-social d-flex align-items-center justify-content-center">
+                  <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                   href="https://that9jaboy3-facebook-clone.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                  <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                  href="https://github.com/OlatunjiAbiodunEmmanuel/Facebook-landingPage-Clone" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="card-body bg-secondary">
+                  <h4 class="card-title">FACEBOOK CLONE</h4>
+                  <h6 class="card-title">Technology Used</h6>
+                  <p class="card-text">
+                    <span class="bg-secondary rounded-2 p-1">react</span>
+                    <span class="bg-secondary rounded-2 p-1">css</span>
+                    <span class="bg-secondary rounded-2 p-1">javascript</span>
+                    <span class="bg-secondary rounded-2 p-1">git/github</span>
+                    <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+                </p>
+          </div>
+          </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+              <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+              <img class="card-img-top" src="/gallery/dictionary.JPG" alt="" style="height: 70%;">
+              <div class="card-social d-flex align-items-center justify-content-center">
+                      <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                       href="https://that9jaboy3dictionary.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                      <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                      href="https://github.com/OlatunjiAbiodunEmmanuel/Dictionary-and-Quote-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <div class="card-body bg-secondary">
+                      <h4 class="card-title">Dictionary</h4>
+                      <h6 class="card-title">Technology Used</h6>
+                      <p class="card-text">
+                        <span class="bg-secondary rounded-2 p-1">React</span>
+                        <span class="bg-secondary rounded-2 p-1">css</span>
+                        <span class="bg-secondary rounded-2 p-1">javascript</span>
+                        <span class="bg-secondary rounded-2 p-1">git/github</span>
+                        <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+                    </p>
+              </div>
+              </div>
+              </div>
+  
+          <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+              <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+              <img class="card-img-top" src="/gallery/stopwatch.JPG" alt="" style="height: 70%;">
+              <div class="card-social d-flex align-items-center justify-content-center">
+                      <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                       href="https://that9jaboy3-digital-stopwatch.netlify.app" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                      <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                      href="https://github.com/OlatunjiAbiodunEmmanuel/DIGITAL-STOWATCH" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+              <div class="card-body bg-secondary">
+                      <h4 class="card-title">STOPWATCH</h4>
+                      <h6 class="card-title">Technology Used</h6>
+                      <p class="card-text">
+                        <span class="bg-secondary rounded-2 p-1">html</span>
+                        <span class="bg-secondary rounded-2 p-1">css</span>
+                        <span class="bg-secondary rounded-2 p-1">javascript</span>
+                        <span class="bg-secondary rounded-2 p-1">git/github</span>
+                        <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+                    </p>
+              </div>
+              </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+                  <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+                  <img class="card-img-top" src="/gallery/todolist.JPG" alt="" style="height: 70%;">
+                  <div class="card-social d-flex align-items-center justify-content-center">
+                          <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                           href="https://that9jaboy3-to-do-list.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                          <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                          href="https://github.com/OlatunjiAbiodunEmmanuel/ToDoList-Application" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                  <div class="card-body bg-secondary">
+                          <h4 class="card-title">TODO LIST APP</h4>
+                          <h6 class="card-title">Technology Used</h6>
+                          <p class="card-text">
+                            <span class="bg-secondary rounded-2 p-1">html</span>
+                            <span class="bg-secondary rounded-2 p-1">css</span>
+                            <span class="bg-secondary rounded-2 p-1">javascript</span>
+                            <span class="bg-secondary rounded-2 p-1">git/github</span>
+                            <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+                        </p>
+                  </div>
+                  </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-6 col-lg-4 mb-5 dp">
+                      <div class="card border-0 bg-secondary text-center text-white" style=" height: 50vh;">
+                      <img class="card-img-top" src="/gallery/gradesystem.JPG" alt="" style="height: 70%;">
+                      <div class="card-social d-flex align-items-center justify-content-center">
+                              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;"
+                               href="https://that9jaboy3-grading-system.netlify.app/" target="_blank"><i class="fa-brands fa-chrome"></i></a>
+                              <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 40px; height: 40px;" 
+                              href="https://github.com/OlatunjiAbiodunEmmanuel/Grading-system" target="_blank"><i class="fa-brands fa-github"></i></a>
+                      </div>
+                      <div class="card-body bg-secondary">
+                              <h4 class="card-title">GRADING SYSTEM</h4>
+                              <h6 class="card-title">Technology Used</h6>
+                              <p class="card-text">
+                                <span class="bg-secondary rounded-2 p-1">html</span>
+                                <span class="bg-secondary rounded-2 p-1">css</span>
+                                <span class="bg-secondary rounded-2 p-1">javascript</span>
+                                <span class="bg-secondary rounded-2 p-1">git/github</span>
+                                <span class="bg-secondary rounded-2 p-1">bootstrap</span></li>
+                            </p>
+                      </div>
+                      </div>
+                      </div>
+    <a href="project.html"><button class="mt-1 rounded-2 text-light bg-black">See more projects</button></a>
+</section>
+
+<section class="container-sm mt-5" id="services">
+<h3  class="border border-3 border-top-0 border-end-0 mb-5 ps-3">Services</h3>
+<div class="row">
+    <div class="col-sm-6 mb-sm-0">
+      <div class="  mb-5">
+        <div class="">
+          <h3 class="mb-5"> <i class="fa-solid fa-plane-arrival fa-2xl me-3"></i>Landing Pages & Homepages</h3>
+          <p class="">Captivating design that makes your website shine. Let's impress with a stunning online presence!</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class=" mb-5">
+        <div class="">
+          <h3 class="mb-5"><i class="fa-brands fa-firefox-browser fa-2xl me-3"></i>Cross-browser Compatibility  </h3>
+          <p class="">Fixing compatibility issues for a flawless user experience in all browsers.</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 mb-sm-0">
+          <div class="  mb-5">
+            <div class="">
+              <h3 class="mb-5"><i class="fa-solid fa-mobile fa-2xl me-3"></i>Responsive Design </h3>
+              <p class="">Your website will look great on ALL devices. Optimal user experience guaranteed.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class=" mb-2">
+            <div class="">
+              <h3 class="mb-5"> <i class="fa-solid fa-microchip fa-2xl me-3"></i>Integration with APIs</h3>
+              <p class="">Seamless connection between front-end and existing APIs. Dynamic content made easy.</p>
+              
+            </div>
+          </div>
+        </div>
+</section>
+
+<footer class="bg-black text-light p-5 d-md-flex justify-content-around align-items-center" id="footer">
+    <div class="">
+        <address>
+            <span><i class="fa-solid fa-mobile fa-lg me-3"></i> Phone Number : +2347046381164</span> <br>
+            <span><i class="fa-brands fa-whatsapp fa-lg me-3"></i>Whatsapp : <a href="https://wa.me/+2347046381165" target="_blank">Chat via Whatsapp</a></span> <br>
+            <span><i class="fa-solid fa-envelope fa-lg me-3"></i>Email Address : Olatunjia889@gmail.com</span>
+        </address>
+    </div>
+
+<div class="text-center text-md-start">
+<ul>
+    <span><a  class="text-light text-decoration-none" href="#">HOME</a></span> <br>
+    <span><a  class="text-light text-decoration-none" href="#about">ABOUT</a></span> <br>
+    <span><a  class="text-light text-decoration-none" href="#services">SERVICES</a></span> <br>
+    <span><a  class="text-light text-decoration-none" href="#projects">PROJECTS</a></span>
+</ul> 
+</div>
+<div class="text-center">
+    <span><a  class="text-light" href="#" target="_blank"><i class="fa-brands fa-x-twitter fa-lg"></i></a></span> <br>
+    <span><a  class="text-light" href="#" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a></span> <br>
+    <span><a  class="text-light" href="https://github.com/OlatunjiAbiodunEmmanuel" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a></span> <br>
+    <span><a  class="text-light" href="https://wa.me/+2347046381165" target="_blank"><i class="fa-brands fa-whatsapp fa-lg"></i></a></span>
+</div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="#" class=" back-to-top" ><i class="fa fa-angle-double-up fa-2xl" style="color: gray;"></i></a>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
